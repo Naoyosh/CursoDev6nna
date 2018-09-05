@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1><center> Formulário de Cadastro</center></h1>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+
+            Nome: <input type="text" placeholder="insrira o seu nome " required=""><br>
+            E-mail: <input type="email" placeholder="insira o seu email " required=""><br>
+            Cidade: <input type="text" placeholder="insira a sua cidade " required=""><br>
+            Estado: <select name="estado">
+                <option>Pará</option>
+            </select>
+        
+        </fieldset>
+        
+        <fieldset>
+            <legend>Dados profissionais</legend>
+            <p><b>Cargo pretendido: </b></p>
+            <input type="radio" required=""> Analista de sistema
+            <input type="radio" required="">Analista de banco de dados
+            <input type="radio" required="">Analista de suporte
+            <br><br>
+            <p><b>Tecnologias de interesses:</b></p>
+            <input type="checkbox" required="">Java
+            <input type="checkbox" required="">HTML,CSS
+            <input type="checkbox" required="">Javascript
+            <input type="checkbox" required="">SQL
+            <br><br>
+            <p><b>Mini currículo: </b></p>
+            <textarea cols="50" rows="5"></textarea>
+        </fieldset>
+        
+        <fieldset>
+            <legend><b>Ações</b></legend>
+            <input type="submit" required="">
+            <input type="submit" value="Limpar" required="">  
+        </fieldset>
+    </body>
+</html>

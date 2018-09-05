@@ -1,0 +1,22 @@
+
+div{
+    font-size: 30px;
+    font-family: helvetica;
+    color:blue;
+}
+
+p{
+    font-size: 40px;
+    font-family: arial;
+    color: pink ;
+}
+
+#postagens{
+    font-size: 15px;
+    font-family: sans-serif;
+    color: blueviolet;
+}
+
+.conteudos{
+    color: gold;
+}
