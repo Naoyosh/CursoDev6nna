@@ -1,0 +1,19 @@
+body{
+    background: gray;
+}
+.titulo{
+    color: yellow;
+    background: black;
+}
+p{
+    color: white;
+}
+h2{
+    color: yellow;
+}
+span{
+    color: pink;
+}
+a{
+    color: yellow;
+}

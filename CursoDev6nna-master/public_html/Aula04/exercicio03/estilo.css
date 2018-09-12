@@ -1,0 +1,30 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11/09/2018, 11:25:11
+    Author     : William
+*/
+
+h3{
+    color: red;
+}
+
+th{
+    color: blue;
+}
+
+div{
+    font-size: 16px;
+    font-family: Tahoma;
+}
+
+#valorMedia{
+    font-style: bold;
+}
+
+#media{
+    font-style: italic; 
+}

@@ -1,0 +1,14 @@
+div{
+    background: lightblue;
+}
+
+.dadosPro{
+    background: lightcoral;
+}
+
+.acoes{
+    background-color: lightgreen;
+}
+textArea,input,select{
+    background: khaki;
+}
