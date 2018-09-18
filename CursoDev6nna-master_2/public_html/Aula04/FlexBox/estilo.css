@@ -1,0 +1,8 @@
+.container{
+    display: flex;
+}
+
+.element{
+    border: solid 4px black;
+    margin-right: 20px;
+}

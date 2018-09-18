@@ -1,0 +1,23 @@
+body{
+    background: whitesmoke;
+}
+
+h2{
+    display: inline;
+}
+
+.grupo{
+    display: flex;
+}
+
+.item1{
+    margin-right: 200px;
+}
+
+.grupo2{
+    display: flex;
+}
+
+.item2{
+    margin-right: 222px;
+}
