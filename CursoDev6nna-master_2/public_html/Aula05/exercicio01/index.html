@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script> 
+            function calcular(oper) {
+   var valor1 = document.getElementById("valor1").value;
+   var valor2 = document.getElementById("valor2").value;
+
+   if (oper == "somar") {
+      var resultado = parseInt(valor1) + parseInt(valor2);
+      
+   } else {
+      if (oper == "subtrair") {
+         var resultado = valor1-valor2;
+      } else {
+         if (oper == "multiplicar") {
+            var resultado = valor1*valor2;
+         } else {
+            var resultado = valor1/valor2;
+         }
+      }
+   }
+   document.getElementById("res").innerHTML = resultado;
+}
+        </script>
+    </head>
+    <body>
+        #1 <input type="number" id="valor1"><br><br>
+        #2 <input type="number" id="valor2"><br><br>
+        
+        <input type="button" value="+" onclick="calcular('somar')">
+        <input type="button" value="-" onclick="calcular('subtrair')">
+        <input type="button" value="*" onclick="calcular('multiplicar')">
+        <input type="button" value="/" onclick="calcular()">
+        
+        <p id="res"></p>
+    </body>
+</html>
