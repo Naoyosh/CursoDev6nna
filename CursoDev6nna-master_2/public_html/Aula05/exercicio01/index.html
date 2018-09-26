@@ -11,11 +11,10 @@
    var valor2 = document.getElementById("valor2").value;
 
    if (oper == "somar") {
-      var resultado = parseInt(valor1) + parseInt(valor2);
-      
+      var resultado = parseInt(valor1) + parseInt(valor2);  
    } else {
       if (oper == "subtrair") {
-         var resultado = valor1-valor2;
+          var resultado = valor1-valor2;
       } else {
          if (oper == "multiplicar") {
             var resultado = valor1*valor2;
@@ -37,6 +36,6 @@
         <input type="button" value="*" onclick="calcular('multiplicar')">
         <input type="button" value="/" onclick="calcular()">
         
-        <p id="res"></p>
+        <p id="res">Resultado: </p>
     </body>
 </html>
