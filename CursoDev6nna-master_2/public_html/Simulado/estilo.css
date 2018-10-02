@@ -1,0 +1,11 @@
+body{
+    font-family: helvetica;
+}
+
+.grupo1{
+    display: flex;
+}
+
+.item1{
+    margin-right: 150px;
+}
