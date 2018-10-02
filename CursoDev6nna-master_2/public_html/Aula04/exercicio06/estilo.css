@@ -4,9 +4,10 @@ body{
 
 h2{
     display: inline;
+    border-bottom-style: solid;
 }
 
-.grupo{
+.grupo, .grupo2{
     display: flex;
 }
 
@@ -14,10 +15,19 @@ h2{
     margin-right: 200px;
 }
 
-.grupo2{
-    display: flex;
-}
-
 .item2{
     margin-right: 222px;
 }
+
+.item3{
+    margin-right: 160px;
+}
+
+.item4{
+    margin-right: 88px;
+}
+
+span{
+    color: red;
+}
+
