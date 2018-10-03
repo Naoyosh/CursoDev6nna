@@ -1,0 +1,17 @@
+fieldset{
+	border: double;
+	border-size: 3px;
+	
+}
+#res{
+    color: red;
+}
+.numero{
+    background-color: #ffffe0;
+}
+.botao{
+    background-color: blue;
+    height: 30px;
+    width: 35px;
+    color: white;
+}
